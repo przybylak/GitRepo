@@ -19,15 +19,15 @@ int main()
     if(czas>=60) //sprawdzanie czy podana liczba sekund jest wieksza niz 60
         {
 
-        cout<< "To "<<czas/rok<<" lat \n";
+        cout<< "To"<<czas/rok<<" lat \n";
         czas%=rok;
-        cout<< "To "<<czas/mie<<" miesiecy \n";
+        cout<< "To jest "<<czas/mie<<" miesiecy \n";
         czas%=mie;
         cout<< "To "<<czas/tyg<<" tygodni \n";
         czas%=tyg;
-        cout<< "To "<<czas/dni<<" dni \n";
+        cout<< "To jest "<<czas/dni<<" dni \n";
         czas%=dni;
-        cout<< "To "<<czas/godz<<" godzin \n";
+        cout<< "To kek "<<czas/godz<<" godzin \n";
         czas%=godz;
         cout<< "To "<<czas/minu<<" minut \n";
         czas%=minu;

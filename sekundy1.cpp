@@ -23,9 +23,9 @@ int main()
         czas%=rok;
         cout<< "To "<<czas/mie<<" miesiecy \n";
         czas%=mie;
-        cout<< "To "<<czas/tyg<<" tygodni \n";
+        cout<< "To 2"<<czas/tyg<<" tygodni \n";
         czas%=tyg;
-        cout<< "To "<<czas/dni<<" dni \n";
+        cout<< "To 2 "<<czas/dni<<" dni \n";
         czas%=dni;
         cout<< "To "<<czas/godz<<" godzin \n";
         czas%=godz;
